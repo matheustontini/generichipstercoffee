@@ -1,3 +1,31 @@
-h1 {
-  color: orange;
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+}
+.nav__coffee {
+  a {
+    text-decoration: none;
+    color: #848485;
+  }
+  .active {
+    color: #000000;
+  }
+}
+.footer__coffee {
+  background-color: #343a40;
+  color: #ced4da;
+  a {
+    text-decoration: underline;
+  }
+  .active {
+    text-decoration: none;
+    color: #ced4da;
+  }
+  strong {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
 }
